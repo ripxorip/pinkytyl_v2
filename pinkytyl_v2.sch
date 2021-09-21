@@ -152,17 +152,6 @@ F 3 "" H 2300 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4RC-AU U1
-U 1 1 6147171C
-P 2900 2700
-F 0 "U1" H 3100 900 50  0000 C CNN
-F 1 "ATmega32U4RC-AU" H 3350 800 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2900 2700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2900 2700 50  0001 C CNN
-	1    2900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C7
 U 1 1 61498967
 P 2200 2500
@@ -536,10 +525,10 @@ F 3 "" H 10000 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K00
+L keyboard_parts:KEYSW K0
 U 1 1 615A37F1
 P 6450 3250
-F 0 "K00" H 6450 3483 60  0000 C CNN
+F 0 "K0" H 6450 3483 60  0000 C CNN
 F 1 "KEYSW" H 6450 3150 60  0001 C CNN
 F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 6450 3250 60  0001 C CNN
 F 3 "" H 6450 3250 60  0000 C CNN
@@ -756,10 +745,10 @@ F 3 "~" H 9350 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D00
+L Device:D D0
 U 1 1 615F90BB
 P 6750 3100
-F 0 "D00" V 6704 3180 50  0000 L CNN
+F 0 "D0" V 6704 3180 50  0000 L CNN
 F 1 "D" V 6795 3180 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 6750 3100 50  0001 C CNN
 F 3 "~" H 6750 3100 50  0001 C CNN
@@ -1076,6 +1065,17 @@ F 1 "USB_B_Mini" H 5107 1426 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 5200 1000 50  0001 C CNN
 F 3 "~" H 5200 1000 50  0001 C CNN
 	1    5050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 614A5BC3
+P 2900 2700
+F 0 "U1" H 2900 811 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 2900 720 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 2900 2700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2900 2700 50  0001 C CNN
+	1    2900 2700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
