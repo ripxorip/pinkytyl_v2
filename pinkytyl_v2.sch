@@ -244,7 +244,7 @@ U 1 1 61540DF1
 P 5550 3900
 F 0 "K10" H 5550 4133 60  0000 C CNN
 F 1 "KEYSW" H 5550 3800 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 5550 3900 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 5550 3900 60  0001 C CNN
 F 3 "" H 5550 3900 60  0000 C CNN
 	1    5550 3900
 	1    0    0    -1  
@@ -255,7 +255,7 @@ U 1 1 61581DE6
 P 6450 3900
 F 0 "K11" H 6450 4133 60  0000 C CNN
 F 1 "KEYSW" H 6450 3800 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 6450 3900 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 3900 60  0001 C CNN
 F 3 "" H 6450 3900 60  0000 C CNN
 	1    6450 3900
 	1    0    0    -1  
@@ -266,7 +266,7 @@ U 1 1 61582A7E
 P 7350 3900
 F 0 "K12" H 7350 4133 60  0000 C CNN
 F 1 "KEYSW" H 7350 3800 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 7350 3900 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 7350 3900 60  0001 C CNN
 F 3 "" H 7350 3900 60  0000 C CNN
 	1    7350 3900
 	1    0    0    -1  
@@ -277,7 +277,7 @@ U 1 1 6158361E
 P 8200 3900
 F 0 "K13" H 8200 4133 60  0000 C CNN
 F 1 "KEYSW" H 8200 3800 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 8200 3900 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 8200 3900 60  0001 C CNN
 F 3 "" H 8200 3900 60  0000 C CNN
 	1    8200 3900
 	1    0    0    -1  
@@ -288,7 +288,7 @@ U 1 1 615842AB
 P 9050 3900
 F 0 "K14" H 9050 4133 60  0000 C CNN
 F 1 "KEYSW" H 9050 3800 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 9050 3900 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 3900 60  0001 C CNN
 F 3 "" H 9050 3900 60  0000 C CNN
 	1    9050 3900
 	1    0    0    -1  
@@ -299,7 +299,7 @@ U 1 1 61584DAA
 P 10000 3900
 F 0 "K15" H 10000 4133 60  0000 C CNN
 F 1 "KEYSW" H 10000 3800 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 10000 3900 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 3900 60  0001 C CNN
 F 3 "" H 10000 3900 60  0000 C CNN
 	1    10000 3900
 	1    0    0    -1  
@@ -310,7 +310,7 @@ U 1 1 615913B1
 P 5550 4650
 F 0 "K20" H 5550 4883 60  0000 C CNN
 F 1 "KEYSW" H 5550 4550 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 5550 4650 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 5550 4650 60  0001 C CNN
 F 3 "" H 5550 4650 60  0000 C CNN
 	1    5550 4650
 	1    0    0    -1  
@@ -321,7 +321,7 @@ U 1 1 615913B7
 P 6450 4650
 F 0 "K21" H 6450 4883 60  0000 C CNN
 F 1 "KEYSW" H 6450 4550 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 6450 4650 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 4650 60  0001 C CNN
 F 3 "" H 6450 4650 60  0000 C CNN
 	1    6450 4650
 	1    0    0    -1  
@@ -332,7 +332,7 @@ U 1 1 615913BD
 P 7350 4650
 F 0 "K22" H 7350 4883 60  0000 C CNN
 F 1 "KEYSW" H 7350 4550 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 7350 4650 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 7350 4650 60  0001 C CNN
 F 3 "" H 7350 4650 60  0000 C CNN
 	1    7350 4650
 	1    0    0    -1  
@@ -343,7 +343,7 @@ U 1 1 615913C3
 P 8200 4650
 F 0 "K23" H 8200 4883 60  0000 C CNN
 F 1 "KEYSW" H 8200 4550 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 8200 4650 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 8200 4650 60  0001 C CNN
 F 3 "" H 8200 4650 60  0000 C CNN
 	1    8200 4650
 	1    0    0    -1  
@@ -354,7 +354,7 @@ U 1 1 615913C9
 P 9050 4650
 F 0 "K24" H 9050 4883 60  0000 C CNN
 F 1 "KEYSW" H 9050 4550 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 9050 4650 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 4650 60  0001 C CNN
 F 3 "" H 9050 4650 60  0000 C CNN
 	1    9050 4650
 	1    0    0    -1  
@@ -365,7 +365,7 @@ U 1 1 615913CF
 P 10000 4650
 F 0 "K25" H 10000 4883 60  0000 C CNN
 F 1 "KEYSW" H 10000 4550 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 10000 4650 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 4650 60  0001 C CNN
 F 3 "" H 10000 4650 60  0000 C CNN
 	1    10000 4650
 	1    0    0    -1  
@@ -376,7 +376,7 @@ U 1 1 6159942B
 P 5550 5450
 F 0 "K30" H 5550 5683 60  0000 C CNN
 F 1 "KEYSW" H 5550 5350 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 5550 5450 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 5550 5450 60  0001 C CNN
 F 3 "" H 5550 5450 60  0000 C CNN
 	1    5550 5450
 	1    0    0    -1  
@@ -387,7 +387,7 @@ U 1 1 61599431
 P 6450 5450
 F 0 "K31" H 6450 5683 60  0000 C CNN
 F 1 "KEYSW" H 6450 5350 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 6450 5450 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 5450 60  0001 C CNN
 F 3 "" H 6450 5450 60  0000 C CNN
 	1    6450 5450
 	1    0    0    -1  
@@ -398,7 +398,7 @@ U 1 1 61599437
 P 7350 5450
 F 0 "K32" H 7350 5683 60  0000 C CNN
 F 1 "KEYSW" H 7350 5350 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 7350 5450 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 7350 5450 60  0001 C CNN
 F 3 "" H 7350 5450 60  0000 C CNN
 	1    7350 5450
 	1    0    0    -1  
@@ -409,7 +409,7 @@ U 1 1 6159943D
 P 8200 5450
 F 0 "K33" H 8200 5683 60  0000 C CNN
 F 1 "KEYSW" H 8200 5350 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 8200 5450 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 8200 5450 60  0001 C CNN
 F 3 "" H 8200 5450 60  0000 C CNN
 	1    8200 5450
 	1    0    0    -1  
@@ -420,7 +420,7 @@ U 1 1 61599443
 P 9050 5450
 F 0 "K34" H 9050 5683 60  0000 C CNN
 F 1 "KEYSW" H 9050 5350 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 9050 5450 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 5450 60  0001 C CNN
 F 3 "" H 9050 5450 60  0000 C CNN
 	1    9050 5450
 	1    0    0    -1  
@@ -431,7 +431,7 @@ U 1 1 61599449
 P 10000 5450
 F 0 "K35" H 10000 5683 60  0000 C CNN
 F 1 "KEYSW" H 10000 5350 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 10000 5450 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 5450 60  0001 C CNN
 F 3 "" H 10000 5450 60  0000 C CNN
 	1    10000 5450
 	1    0    0    -1  
@@ -442,7 +442,7 @@ U 1 1 615A1265
 P 9050 6150
 F 0 "K40" H 9050 6383 60  0000 C CNN
 F 1 "KEYSW" H 9050 6050 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 9050 6150 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 6150 60  0001 C CNN
 F 3 "" H 9050 6150 60  0000 C CNN
 	1    9050 6150
 	1    0    0    -1  
@@ -453,7 +453,7 @@ U 1 1 615A126B
 P 10000 6150
 F 0 "K41" H 10000 6383 60  0000 C CNN
 F 1 "KEYSW" H 10000 6050 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 10000 6150 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 6150 60  0001 C CNN
 F 3 "" H 10000 6150 60  0000 C CNN
 	1    10000 6150
 	1    0    0    -1  
@@ -464,7 +464,7 @@ U 1 1 615A37F1
 P 6450 3250
 F 0 "K0" H 6450 3483 60  0000 C CNN
 F 1 "KEYSW" H 6450 3150 60  0001 C CNN
-F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" H 6450 3250 60  0001 C CNN
+F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 3250 60  0001 C CNN
 F 3 "" H 6450 3250 60  0000 C CNN
 	1    6450 3250
 	1    0    0    -1  
