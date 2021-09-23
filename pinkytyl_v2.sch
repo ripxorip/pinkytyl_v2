@@ -822,17 +822,6 @@ F 3 "" H 4800 2700 50  0001 C CNN
 	1    4800 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:AudioJack3 J1
-U 1 1 614F8A2A
-P 5100 2550
-F 0 "J1" H 4820 2483 50  0000 R CNN
-F 1 "AudioJack3" H 4820 2574 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 5100 2550 50  0001 C CNN
-F 3 "~" H 5100 2550 50  0001 C CNN
-	1    5100 2550
-	-1   0    0    1   
-$EndComp
 Text GLabel 5350 1150 2    50   Input ~ 0
 d-
 Text GLabel 5350 1050 2    50   Input ~ 0
@@ -1096,4 +1085,29 @@ Wire Wire Line
 Wire Wire Line
 	1900 1300 2100 1300
 Connection ~ 2100 1300
+$Comp
+L STX-3501-3N:STX-3501-3N J1
+U 1 1 615C1FA9
+P 4900 2550
+F 0 "J1" H 5300 2817 50  0000 C CNN
+F 1 "STX-3501-3N" H 5300 2726 50  0000 C CNN
+F 2 "STX35013N" H 4900 2550 50  0001 L BNN
+F 3 "" H 4900 2550 50  0001 L BNN
+F 4 "Kycon, Inc." H 4900 2550 50  0001 L BNN "Manufacturer_Name"
+F 5 "" H 4900 2550 50  0001 L BNN "Arrow_Price-Stock"
+F 6 "STX-3501-3N" H 4900 2550 50  0001 L BNN "Manufacturer_Part_Number"
+F 7 "" H 4900 2550 50  0001 L BNN "Arrow_Part_Number"
+F 8 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 4900 2550 50  0001 L BNN "Description"
+F 9 "5mm" H 4900 2550 50  0001 L BNN "Height"
+F 10 "" H 4900 2550 50  0001 L BNN "Mouser_Price-Stock"
+F 11 "" H 4900 2550 50  0001 L BNN "Mouser_Part_Number"
+	1    4900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2550 5700 2200
+Wire Wire Line
+	5700 2200 4900 2200
+Wire Wire Line
+	4900 2200 4900 2450
 $EndSCHEMATC

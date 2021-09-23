@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Switch_Keyboard_Cherry_MX)(type KiCad)(uri /home/ripxorip/dev/keyswitch-kicad-library/modules/Switch_Keyboard_Cherry_MX.pretty)(options "")(descr ""))
   (lib (name keyswitches)(type KiCad)(uri /home/ripxorip/Downloads/keyswitches.pretty-master)(options "")(descr ""))
+  (lib (name STX-3501-3N)(type KiCad)(uri /home/ripxorip/Downloads/STX-3501-3N)(options "")(descr ""))
 )
