@@ -1116,4 +1116,68 @@ F 3 "" H 5800 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 2450 5800 2350
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61566A23
+P 8850 1700
+F 0 "H1" V 8804 1850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8895 1850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8850 1700 50  0001 C CNN
+F 3 "~" H 8850 1700 50  0001 C CNN
+	1    8850 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 615686EB
+P 8850 1900
+F 0 "H2" V 8804 2050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8895 2050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8850 1900 50  0001 C CNN
+F 3 "~" H 8850 1900 50  0001 C CNN
+	1    8850 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61568EE3
+P 8850 2100
+F 0 "H3" V 8804 2250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8895 2250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8850 2100 50  0001 C CNN
+F 3 "~" H 8850 2100 50  0001 C CNN
+	1    8850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 61569881
+P 8850 2300
+F 0 "H4" V 8804 2450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8895 2450 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8850 2300 50  0001 C CNN
+F 3 "~" H 8850 2300 50  0001 C CNN
+	1    8850 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1700 8750 1900
+Wire Wire Line
+	8750 2100 8750 1900
+Connection ~ 8750 1900
+Wire Wire Line
+	8750 2100 8750 2300
+Connection ~ 8750 2100
+$Comp
+L power:GND #PWR05
+U 1 1 615705C4
+P 8750 2300
+F 0 "#PWR05" H 8750 2050 50  0001 C CNN
+F 1 "GND" H 8755 2127 50  0000 C CNN
+F 2 "" H 8750 2300 50  0001 C CNN
+F 3 "" H 8750 2300 50  0001 C CNN
+	1    8750 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 2300
 $EndSCHEMATC
