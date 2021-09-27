@@ -892,18 +892,6 @@ F 3 "~" H 5200 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U1
-U 1 1 614A5BC3
-P 2900 2700
-F 0 "U1" H 2900 811 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 2900 720 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 2900 2700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2900 2700 50  0001 C CNN
-F 4 "C112161" H 2900 2700 50  0001 C CNN "LSCS Part #"
-	1    2900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 614AB98F
 P 2000 1500
@@ -1213,4 +1201,15 @@ F 3 "" H 8750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8750 2300
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U?
+U 1 1 6151FE4B
+P 2900 2700
+F 0 "U?" H 2900 811 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2900 720 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2900 2700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2900 2700 50  0001 C CNN
+	1    2900 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
