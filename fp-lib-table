@@ -4,4 +4,5 @@
   (lib (name STX-3501-3N)(type KiCad)(uri /home/ripxorip/Downloads/STX-3501-3N)(options "")(descr ""))
   (lib (name misc)(type KiCad)(uri /home/ripxorip/Downloads/misc.pretty)(options "")(descr ""))
   (lib (name FC68125)(type KiCad)(uri /home/ripxorip/Downloads/FC68125)(options "")(descr ""))
+  (lib (name Logos)(type KiCad)(uri /home/ripxorip/fedora_home/ripxorip/dev/migic_box/Logos.pretty)(options "")(descr ""))
 )
