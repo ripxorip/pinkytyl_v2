@@ -94,17 +94,6 @@ F 3 "" H 2100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0105
-U 1 1 614864FA
-P 2300 2000
-F 0 "#PWR0105" H 2300 1850 50  0001 C CNN
-F 1 "VCC" V 2300 2150 50  0000 L CNN
-F 2 "" H 2300 2000 50  0001 C CNN
-F 3 "" H 2300 2000 50  0001 C CNN
-	1    2300 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C_Small C7
 U 1 1 61498967
 P 2200 2500
@@ -237,7 +226,6 @@ NoConn ~ 3500 2700
 NoConn ~ 3500 2800
 NoConn ~ 3500 2900
 NoConn ~ 3500 3000
-NoConn ~ 3500 3300
 NoConn ~ 3500 3600
 NoConn ~ 3500 3700
 NoConn ~ 3500 3800
@@ -252,7 +240,7 @@ U 1 1 61540DF1
 P 5550 3900
 F 0 "K10" H 5550 4133 60  0000 C CNN
 F 1 "KEYSW" H 5550 3800 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 5550 3900 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 5550 3900 60  0001 C CNN
 F 3 "" H 5550 3900 60  0000 C CNN
 	1    5550 3900
 	1    0    0    -1  
@@ -263,7 +251,7 @@ U 1 1 61581DE6
 P 6450 3900
 F 0 "K11" H 6450 4133 60  0000 C CNN
 F 1 "KEYSW" H 6450 3800 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 3900 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 6450 3900 60  0001 C CNN
 F 3 "" H 6450 3900 60  0000 C CNN
 	1    6450 3900
 	1    0    0    -1  
@@ -274,7 +262,7 @@ U 1 1 61582A7E
 P 7350 3900
 F 0 "K12" H 7350 4133 60  0000 C CNN
 F 1 "KEYSW" H 7350 3800 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 7350 3900 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 7350 3900 60  0001 C CNN
 F 3 "" H 7350 3900 60  0000 C CNN
 	1    7350 3900
 	1    0    0    -1  
@@ -285,7 +273,7 @@ U 1 1 6158361E
 P 8200 3900
 F 0 "K13" H 8200 4133 60  0000 C CNN
 F 1 "KEYSW" H 8200 3800 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 8200 3900 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 8200 3900 60  0001 C CNN
 F 3 "" H 8200 3900 60  0000 C CNN
 	1    8200 3900
 	1    0    0    -1  
@@ -296,7 +284,7 @@ U 1 1 615842AB
 P 9050 3900
 F 0 "K14" H 9050 4133 60  0000 C CNN
 F 1 "KEYSW" H 9050 3800 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 3900 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 9050 3900 60  0001 C CNN
 F 3 "" H 9050 3900 60  0000 C CNN
 	1    9050 3900
 	1    0    0    -1  
@@ -307,7 +295,7 @@ U 1 1 61584DAA
 P 10000 3900
 F 0 "K15" H 10000 4133 60  0000 C CNN
 F 1 "KEYSW" H 10000 3800 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 3900 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 10000 3900 60  0001 C CNN
 F 3 "" H 10000 3900 60  0000 C CNN
 	1    10000 3900
 	1    0    0    -1  
@@ -318,7 +306,7 @@ U 1 1 615913B1
 P 5550 4650
 F 0 "K20" H 5550 4883 60  0000 C CNN
 F 1 "KEYSW" H 5550 4550 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 5550 4650 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 5550 4650 60  0001 C CNN
 F 3 "" H 5550 4650 60  0000 C CNN
 	1    5550 4650
 	1    0    0    -1  
@@ -329,7 +317,7 @@ U 1 1 615913B7
 P 6450 4650
 F 0 "K21" H 6450 4883 60  0000 C CNN
 F 1 "KEYSW" H 6450 4550 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 4650 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 6450 4650 60  0001 C CNN
 F 3 "" H 6450 4650 60  0000 C CNN
 	1    6450 4650
 	1    0    0    -1  
@@ -340,7 +328,7 @@ U 1 1 615913BD
 P 7350 4650
 F 0 "K22" H 7350 4883 60  0000 C CNN
 F 1 "KEYSW" H 7350 4550 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 7350 4650 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 7350 4650 60  0001 C CNN
 F 3 "" H 7350 4650 60  0000 C CNN
 	1    7350 4650
 	1    0    0    -1  
@@ -351,7 +339,7 @@ U 1 1 615913C3
 P 8200 4650
 F 0 "K23" H 8200 4883 60  0000 C CNN
 F 1 "KEYSW" H 8200 4550 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 8200 4650 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 8200 4650 60  0001 C CNN
 F 3 "" H 8200 4650 60  0000 C CNN
 	1    8200 4650
 	1    0    0    -1  
@@ -362,7 +350,7 @@ U 1 1 615913C9
 P 9050 4650
 F 0 "K24" H 9050 4883 60  0000 C CNN
 F 1 "KEYSW" H 9050 4550 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 4650 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 9050 4650 60  0001 C CNN
 F 3 "" H 9050 4650 60  0000 C CNN
 	1    9050 4650
 	1    0    0    -1  
@@ -373,7 +361,7 @@ U 1 1 615913CF
 P 10000 4650
 F 0 "K25" H 10000 4883 60  0000 C CNN
 F 1 "KEYSW" H 10000 4550 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 4650 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 10000 4650 60  0001 C CNN
 F 3 "" H 10000 4650 60  0000 C CNN
 	1    10000 4650
 	1    0    0    -1  
@@ -384,7 +372,7 @@ U 1 1 6159942B
 P 5550 5450
 F 0 "K30" H 5550 5683 60  0000 C CNN
 F 1 "KEYSW" H 5550 5350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 5550 5450 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 5550 5450 60  0001 C CNN
 F 3 "" H 5550 5450 60  0000 C CNN
 	1    5550 5450
 	1    0    0    -1  
@@ -395,7 +383,7 @@ U 1 1 61599431
 P 6450 5450
 F 0 "K31" H 6450 5683 60  0000 C CNN
 F 1 "KEYSW" H 6450 5350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 5450 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 6450 5450 60  0001 C CNN
 F 3 "" H 6450 5450 60  0000 C CNN
 	1    6450 5450
 	1    0    0    -1  
@@ -406,7 +394,7 @@ U 1 1 61599437
 P 7350 5450
 F 0 "K32" H 7350 5683 60  0000 C CNN
 F 1 "KEYSW" H 7350 5350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 7350 5450 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 7350 5450 60  0001 C CNN
 F 3 "" H 7350 5450 60  0000 C CNN
 	1    7350 5450
 	1    0    0    -1  
@@ -417,7 +405,7 @@ U 1 1 6159943D
 P 8200 5450
 F 0 "K33" H 8200 5683 60  0000 C CNN
 F 1 "KEYSW" H 8200 5350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 8200 5450 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 8200 5450 60  0001 C CNN
 F 3 "" H 8200 5450 60  0000 C CNN
 	1    8200 5450
 	1    0    0    -1  
@@ -428,7 +416,7 @@ U 1 1 61599443
 P 9050 5450
 F 0 "K34" H 9050 5683 60  0000 C CNN
 F 1 "KEYSW" H 9050 5350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 5450 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 9050 5450 60  0001 C CNN
 F 3 "" H 9050 5450 60  0000 C CNN
 	1    9050 5450
 	1    0    0    -1  
@@ -439,7 +427,7 @@ U 1 1 61599449
 P 10000 5450
 F 0 "K35" H 10000 5683 60  0000 C CNN
 F 1 "KEYSW" H 10000 5350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 5450 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 10000 5450 60  0001 C CNN
 F 3 "" H 10000 5450 60  0000 C CNN
 	1    10000 5450
 	1    0    0    -1  
@@ -450,7 +438,7 @@ U 1 1 615A1265
 P 9050 6150
 F 0 "K40" H 9050 6383 60  0000 C CNN
 F 1 "KEYSW" H 9050 6050 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 9050 6150 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 9050 6150 60  0001 C CNN
 F 3 "" H 9050 6150 60  0000 C CNN
 	1    9050 6150
 	1    0    0    -1  
@@ -461,7 +449,7 @@ U 1 1 615A126B
 P 10000 6150
 F 0 "K41" H 10000 6383 60  0000 C CNN
 F 1 "KEYSW" H 10000 6050 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 10000 6150 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 10000 6150 60  0001 C CNN
 F 3 "" H 10000 6150 60  0000 C CNN
 	1    10000 6150
 	1    0    0    -1  
@@ -472,7 +460,7 @@ U 1 1 615A37F1
 P 6450 3250
 F 0 "K0" H 6450 3483 60  0000 C CNN
 F 1 "KEYSW" H 6450 3150 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible_minimal" H 6450 3250 60  0001 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 6450 3250 60  0001 C CNN
 F 3 "" H 6450 3250 60  0000 C CNN
 	1    6450 3250
 	1    0    0    -1  
@@ -868,17 +856,6 @@ F 3 "" H 4950 1450 50  0001 C CNN
 	1    4950 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0109
-U 1 1 614BD830
-P 5350 850
-F 0 "#PWR0109" H 5350 700 50  0001 C CNN
-F 1 "VCC" V 5365 978 50  0000 L CNN
-F 2 "" H 5350 850 50  0001 C CNN
-F 3 "" H 5350 850 50  0001 C CNN
-	1    5350 850 
-	0    1    1    0   
-$EndComp
 NoConn ~ 5350 1250
 $Comp
 L Connector:USB_B_Mini J3
@@ -928,10 +905,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 800  2900 900 
 Connection ~ 2900 800 
-Wire Wire Line
-	2800 900  2800 800 
-Wire Wire Line
-	2800 800  2900 800 
 Wire Wire Line
 	950  1300 950  1200
 Connection ~ 950  1200
@@ -1211,5 +1184,54 @@ F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2900 2700 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2900 2700 50  0001 C CNN
 	1    2900 2700
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 616DF351
+P 3500 3300
+F 0 "#PWR06" H 3500 3050 50  0001 C CNN
+F 1 "GND" V 3505 3172 50  0000 R CNN
+F 2 "" H 3500 3300 50  0001 C CNN
+F 3 "" H 3500 3300 50  0001 C CNN
+	1    3500 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 61713DAC
+P 5550 650
+F 0 "D1" H 5400 750 50  0000 L CNN
+F 1 "D" H 5595 730 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5550 650 50  0001 C CNN
+F 3 "~" H 5550 650 50  0001 C CNN
+F 4 "C81598" H 5550 650 50  0001 C CNN "LCSC"
+	1    5550 650 
+	-1   0    0    1   
+$EndComp
+Text GLabel 5500 850  2    50   Input ~ 0
+UVCC
+Wire Wire Line
+	5500 850  5400 850 
+Wire Wire Line
+	5400 650  5400 850 
+Connection ~ 5400 850 
+Wire Wire Line
+	5400 850  5350 850 
+Wire Wire Line
+	2800 900  2800 800 
+Wire Wire Line
+	2800 800  2900 800 
+Text GLabel 2300 2000 0    50   Input ~ 0
+UVCC
+$Comp
+L power:VCC #PWR0105
+U 1 1 61762081
+P 5700 650
+F 0 "#PWR0105" H 5700 500 50  0001 C CNN
+F 1 "VCC" H 5715 823 50  0000 C CNN
+F 2 "" H 5700 650 50  0001 C CNN
+F 3 "" H 5700 650 50  0001 C CNN
+	1    5700 650 
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
